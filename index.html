@@ -11,6 +11,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <style>
+            .photo
+            {
+               background-image: linear-gradient(rgba(255,255,255,0.5)),url('./assets/ceremony4.webp');
+               background-size: cover;
+                
+            }
+        </style>
 </head>
 
 <body>
@@ -29,11 +37,12 @@
                             </div>
                             <ul tabindex="-1"
                                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                                <li><a>Homepage</a></li>
-                                <li><a>Portfolio</a></li>
-                                <li><a>About</a></li>
+                                <li><a class="hover:text-red-600" href="index.html">Home</a></li>
+                                <li><a class="hover:text-red-600" href="about.html">about</a></li>
+                                <li><a class="hover:text-red-600" href="service.html">service</a></li>
+                                <li><a class="hover:text-red-600" href="contact us.html">contact us</a></li>
                             </ul>
-                            <span class="uppercase font-bold text-2xl text-orange-500 ms=30 italic">HarmonySphere</span>
+                            <span class="uppercase font-bold text-2xl text-orange-500 ms=30 italic">Harmony</span>
                         </div>
                     </div>
                     <!-- <div class="navbar-center">
@@ -41,7 +50,7 @@
                     </div> -->
                     <div class="navbar-end">
                         <div class="navbar-end ">
-                            <a class="btn hover:text-red-400" href="#">Login</a>
+                            <a class="btn hover:text-red-400" href="login.html">Login</a>
                             <!-- <button class="btn sm:hidden" popovertarget="my-megamenu-4">Menu</button> -->
                         </div>
                         <button class="btn btn-ghost btn-circle">
@@ -65,112 +74,259 @@
                 </div>
             </div>
         </div>
+        <!-- navbar end -->
         <!-- section start -->
-        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols- xl:grid-cols-12 pb-10">
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols- xl:grid-cols-12">
 
             <!-- LEFT -->
-            <div class="col-span-5 bg-amber-200 ">
+            <div class="col-span-12 bg-white ">
                 <div class="relative">
-                    <!-- <img src="./assets/home.jpg" class="h-170 w-full object-cover" alt=""> -->
-                    <div class="bg-[#fffaf7] h-170 rounded-2xl"></div>
+               
+                    <div class="photo h-100 w-full bg-cover bg-center"></div>
+                    <!-- <img src="./assets/ceremony4.webp" class="h-100 w-full bg-cover bg-center" alt=""> -->
+                </div>
+             
+                    
+                    <!-- <div class="bg-[#fffaf7] h-170 rounded-2xl"></div> -->
 
                     <!-- Image ke upar -->
-                    <div class="absolute top-10 left-10 rounded-2xl">
+                    <div class="absolute top-20 left-10 rounded-2xl ">
                         <h1 class="text-5xl font-bold text-black uppercase font-['Playfair_Display']">
-                            shadi
+                            shaadi
                         </h1>
-                        <p class="text-black mt-2">
+                        <p class="text-white mt-2">
                             Find your perfect connection
                         </p>
-                        <div class="text-3xl font-bold text-orange-400">A beautiful journey begins<br> with the right
+                        <div class="text-3xl font-bold text-red-200">A beautiful journey begins<br> with the right
                             connection.
                         </div><br>
-                        <marquee class="text-3xl bg-red-50 uppercase">welcome to my <span>harmony</span> website visite
+                        <marquee class="text-3xl text-white  uppercase">welcome to my <span>harmony</span> website
+                            visite
                         </marquee>
                         <div
-                            class=" hover:bg-amber-400 border-2 border-black rounded-2xl text-2xl w-100 bg-black font-['Playfair_Display'] text-white px-10 shadow-amber-950 shadow-2xl mt-10">
+                            class=" hover:bg-amber-400  ms:hidden  font-['Playfair_Display'] text-black font-bold  shadow-white shadow-2xl ">
                             One Search, One Meeting, One Beautiful Relationship.
 
-                            <span class="text-white font-['Playfair_Display']">Because every heart wishes for a
+                            <span class="text-black font-['Playfair_Display']">Because every heart wishes for a
                                 companion</span>
                             who stays by your side through every journey.
 
                             HARMONY — Your Match, Your Story.
                         </div>
-                        <button
+                        <!-- <button
                             class="bg-white px-10 py-3 rounded-lg font-['Playfair_Display'] mt-20 border-2 shadow-amber-600 shadow-2xl">
+                            Get Started
+                        </button> -->
+                    </div>
+                    <div class="absolute   bottom-10 right-100 flex">
+
+                        <button class="bg-orange-400  px-10 py-3 hover:bg-white rounded-lg font-['Playfair_Display']">
                             Get Started
                         </button>
                     </div>
-                </div>
+                </>
+
             </div>
 
-            <div class="col-span-7 bg-amber-200">
+            <!-- <div class="col-span-7 bg-amber-200">
+                
                 <div class="relative">
-                    <img src="./assets/home.jpg" class="h-170 w-full object-cover rounded-2xl " alt="">
+                    <img src="./assets/viraypage.jpg" class="h-170 w-full object-cover rounded-2xl " alt="">
 
 
                     <!-- Image ke upar -->
-                    <!-- <div class="absolute bottom-10 right-10 flex">
-                        <button class="bg-white px-10 py-3 rounded-lg font-['Playfair_Display']">
-                            Get Started
-                        </button>
-                    </div> -->
-                </div>
-            </div>
+
         </div>
+    </div>
+    <!-- </div> -->
+    </div>
     </div>
     <!-- section end -->
-    <div class="grid grid-cols-12 mt-10">
-        <div class="col-span-12 col-start-2">
-            <div class="grid grid-cols-9 gap-4">
-                <div class="col-span-3 flex">
-                    <div class="text-4xl font-['Playfair_Display'] text-orange-600">The Shaadi Experience</div>
-                    <div>
-                        <div class="card bg-base-100 w-96 shadow-sm mt-10">
+
+    <div class="grid grid-cols-12">
+        <div class="col-span-10 col-start-2">
+            <div class="grid grid-cols-1 md-grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+                <div class="col-span-1">
+                    <div class="text-4xl font-['Playfair_Display'] text-orange-600   text-center">The Shaadi Experience
+                    </div>
+                    <div class="flex  mt-10 ">
+                        <div class="card bg-base-100 w-96 shadow-sm  hover:to-black shadow-black">
                             <figure>
-                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                                    alt="Shoes" />
+                                <img class="pt-4" src="./assets/Moneyback.fcdd7874.svg" alt="Shoes" />
                             </figure>
                             <div class="card-body">
-                                <h2 class="card-title">
-                                    Card Title
-                                    <div class="badge badge-secondary">NEW</div>
-                                </h2>
-                                <p>A card component has a figure, a body part, and inside body there are title and
-                                    actions parts</p>
-                                <div class="card-actions justify-end ">
-                                    <div class="badge badge-outline">Fashion</div>
-                                    <div class="badge badge-outline">Products</div>
-                                </div>
+                                <h2 class="card-title">30 Day Money Back Guarantee</h2>
+                                <p>Get matched with someone special within 30 days, or we’ll refund your
+                                    money—guaranteed!</p>
+                                <!-- <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div> -->
+                            </div>
+                        </div>
+                        <div class="card bg-base-100 w-96 shadow-sm ms-20  hover:to-black shadow-black">
+                            <figure>
+                                <img class="pt-4" src="./assets/BlueTick.75f91d18.svg" alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Blue Tick to find your Green Flag</h2>
+                                <p>Did you know our blue-tick profiles get 40% more connection requests than others?</p>
+                                <!-- <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div> -->
+                            </div>
+                        </div>
+                        <div
+                            class="card bg-base-100 w-96 shadow-sm hidden sm:hidden md:hidden lg:block ms-20 hover:to-black shadow-black">
+                            <figure>
+                                <img class="pt-4 " src="./assets/AIPowered.ac7a75bb.svg" alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Matchmaking Powered by AI</h2>
+                                <p>Cutting-edge technology with two decades of matchmaking expertise to help you find
+                                    "the one".</p>
+                                <!-- <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-3 flex">
-                    <div class="text-4xl font-['Playfair_Display'] text-orange-600">The Shaadi Experience</div>
-                    <div>
-                        <div class="card bg-base-100 w-96 shadow-sm mt-10">
-                            <figure>
-                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                                    alt="Shoes" />
-                            </figure>
-                            <div class="card-body">
-                                <h2 class="card-title">
-                                    Card Title
-                                    <div class="badge badge-secondary">NEW</div>
-                                </h2>
-                                <p>A card component has a figure, a body part, and inside body there are title and
-                                    actions parts</p>
-                                <div class="card-actions justify-end ">
-                                    <div class="badge badge-outline">Fashion</div>
-                                    <div class="badge badge-outline">Products</div>
-                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="grid grid-cols-12 ">
+        <div class="col-span-10 col-start-2">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+                <div class="col-span-2 s xl:block lg:block mt-10">
+                    <h1 class="text-4xl  text-orange-800">Connections That Last a Lifetime</h1>
+                    <p>Discover beautiful stories of people who found meaningful connections through <span
+                            class="underline text-yellow-800">"Harmony"</span> Every match is the beginning of a
+                        new journey, filled with trust, understanding, and happiness.</p>
+                    <p>Your beautiful story could be the next one.</p>
+                    <!-- animation box -->
+                    <!-- <div
+                        class="h-[300px] w-[300px] bg-red-500 transition-all duration-1000 ease-in-out mx-auto mt-[100px] hover:bg-yellow-400 hover:translate-x-[50px]">
+                    </div> -->
+                </div>
+                <div class="col-span-6 mt-10">
+                    <div class="carousel rounded-box">
+                        <div class="carousel-item">
+                            <img src="./assets/kuldeep.webp" alt="Burger" />
+
+                        </div>
+                        <div class="carousel-item relative">
+                            <p class="absolute">sgdffdhbdgbhdg</p>
+                            <img src="./assets/arjun.jpg" alt="Burger" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/df.jpg" alt="Burger" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/kunal.jpg" alt="Burger" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/rahulsir.jpg" alt="Burger" />
+                        </div>
+                        <div class="carousel-item">
+
+                            <img src="./assets/rinku bhai.jpg" alt="Burger" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/dhavan sir.jpg" alt="Burger" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- cards-->
+    <div class="grid grid-cols-12 mt-10 bg-gray-50 py-20">
+        <div class="col-span-10 col-start-2">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+                <div class="col-span-2 rounded-2xl">
+                    <p class="text-2xl font-['Playfair_Display'] text-black text-center justify-center">
+                        Relationship
+                        Advise</p>
+                    <div class="card bg-base-100 w-100 shadow-2xl  shadow-orange-200 mt-12 transition-all duration-300 
+            hover:-translate-x-10 hover:rotate-2
+            hover:scale-105">
+
+                        <figure class="">
+                            <img src="./assets/relation 2.webp" alt="Shoes" class="w-100" />
+                        </figure>
+                        <div class="card-body items-center text-center font-['Playfair_Display'] ">
+
+                            <p>Here we have experts who work hard to write blogs on relationships, marriage, dating
+                                and
+                                finding love, giving you vista and motivation to have a great love life. Following
+                                these
+                                tips and advice can help you in your relationship journey. Nowadays, people find
+                                their
+                                love by socializing, traveling or using a dating app / website.</p>
+                            <div class="">
+                                <button class="btn bg-orange-300  hover:text-red-600 hover:underline">Red
+                                    more</button>
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="col-span-3 ">
+                    <p class="text-xl font-['Playfair_Display'] text-black text-center justify-center">
+                        Find Someone Special Near You</p>
+                    <div class="card bg-base-100 w-100 shadow-2xl  shadow-orange-200 mt-12 transition-all duration-300 
+            hover:-translate-x-1 hover:rotate-2
+            hover:scale-105">
 
+                        <figure class=" relative">
+                            <img src="./assets/califoniajpg.jpg" alt="Shoes" class="w-100 h-95" />
+                        </figure>
+                        <p class="absolute text-orange-800 text-2xl mt-75 font-bold text-center">welcome to best
+                            matrimony san california usa</p>
+                        <div class="card-body items-center text-center font-['Playfair_Display'] ">
 
+                            <p>Connect with your soul mate that can be nearby or within your city. Our members are
+                                committed to looking for long-term healthy relationships. This platform will help
+                                you to
+                                find love and give you a taste of meaningful connection.</p>
+                            <div class="">
+                                <button class="btn bg-orange-300  hover:text-red-600 hover:underline">Red
+                                    more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-3 ">
+                    <p class=" font-['Playfair_Display'] text-black text-center justify-center">
+                        How To Make A Great Matrimonial Profile</p>
+                    <div class="card bg-base-100 w-100 shadow-2xl  shadow-orange-200 mt-12 transition-all duration-300 
+            hover:-translate-y3 hover:rotate-2
+            hover:scale-105">
+
+                        <figure class=" relative">
+                            <img src="https://tse3.mm.bing.net/th/id/OIP._v9Qvts39fKvN5JLjfrrCgHaF1?r=0&pid=Api&P=0&h=180"
+                                alt="Shoes" class="w-100 h-85" />
+                        </figure>
+                        <!-- <p class="absolute text-orange-800 text-2xl mt-75 font-bold text-center">welcome to best matrimony san california usa</p> -->
+                        <div class="card-body items-center text-center font-['Playfair_Display'] ">
+
+                            <p>Creating an effective profile on a matchmaking site like Shadi.com is crucial for
+                                finding
+                                a meaningful relationship. This blog offers valuable tips for crafting a compelling
+                                profile, emphasizing the importance of honesty, clear intentions, and positive
+                                language.
+                            </p>
+                            <div class="">
+                                <button class="btn bg-orange-300  hover:text-red-600 hover:underline">Red
+                                    more</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,16 +335,50 @@
 
 
 
+    <!-- cards end -->
 
 
 
 
 
+    <div class="bg-amber-50 px-10 py-10 mt-10">
+        <div class="flex text-4xl text-center text-orange-800 justify-center font-['Playfair_Display'] uppercase">
+            HarmonySphere.COM BEST ONLINE
+            MATRIMONY SITE</div>
+        <div class="grid grid-cols-12">
+            <div class="col-span-10 col-start-2">
+                <div class="grid-cols-8">
+                    <div class="col-auto">
+                        <p class="text-xl font-['Playfair_Display']">Our Story</p>
 
+                        <p class="font-bold">Every beautiful relationship begins with a simple meeting</p>
 
+                        **Harmony** was started by <span class="underline">Aniket in Lucknow, Uttar Pradesh,</span>
+                        with
+                        a simple yet meaningful vision—to create a platform where people can find a special life
+                        partner
+                        based on their preferences, values, and dreams.
 
+                        We believe that marriage is not just the union of two people, but the beginning of a
+                        beautiful
+                        journey that brings **two hearts and two families together.
 
+                        Harmony is more than just a matchmaking platform. Our goal is to encourage relationships
+                        built
+                        on understanding, trust, respect, and compatibility. We want everyone to have the
+                        opportunity to
+                        meet someone special with whom they can share happiness, memories, and a beautiful future.
 
+                        What started as a small idea by Aniket is now a vision to help millions of people discover
+                        meaningful connections and find their perfect life partner.
+
+                        Harmony — Your Match, Your Story.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -198,27 +388,34 @@
         <div class="col-span-10 col-start-2">
             <div class="grid grid-cols-8">
                 <div class="col-span-10">
-                    <div class=" ms=10">
-                        <h1 class="font-bold text-2xl italic mt-10">Not**Not just a life partner, but a companion who
+                    <div class="">
+                        <h1 class="font-bold text-2xl italic mt-10">Not**Not just a life partner, but a companion
+                            who
                             makes your life even more beautiful. </h1>
 
-                        Rooted in India’s rich traditions, values, and culture while embracing modern thinking, Hindu
-                        grooms aspire to build a meaningful future while staying connected to their family values. Along
+                        Rooted in India’s rich traditions, values, and culture while embracing modern thinking,
+                        Hindu
+                        grooms aspire to build a meaningful future while staying connected to their family values.
+                        Along
                         with giving importance to education, career, and personal growth, they also value **trust,
                         respect, understanding, and companionship** in a relationship.
 
-                        Every family has its own traditions and values, and every individual has their own expectations
+                        Every family has its own traditions and values, and every individual has their own
+                        expectations
                         from a life partner. Some look for a partner who values family, while others seek someone
                         understanding, supportive, and open-minded—someone with whom they can share the beautiful
                         moments of life, both big and small.
 
-                        At **Harmony**, our purpose is not just to match profiles, but to help bring **two hearts and
+                        At **Harmony**, our purpose is not just to match profiles, but to help bring **two hearts
+                        and
                         two families together through a relationship built on trust and understanding.**
 
-                        Here, you can discover a life partner according to your preferences and take a meaningful step
+                        Here, you can discover a life partner according to your preferences and take a meaningful
+                        step
                         toward a relationship built on **trust, respect, values, and mutual understanding.**
 
-                        **Because the right relationship is not just about walking together, but about supporting each
+                        **Because the right relationship is not just about walking together, but about supporting
+                        each
                         other’s dreams, sharing happiness, and growing together through every chapter of life. ❤️**
 
                         ### **Harmony — Where Hearts Meet, and Beautiful Stories Begin.**
@@ -228,6 +425,78 @@
             </div>
         </div>
     </div>
+    <div class="mt-10 py-10 bg-yellow-950 rounded-3xl">
+        <div class="grid grid-cols-12">
+            <div class="col-span-10 col-start-2">
+                <div class="grid grid-cols-9">
+                    <div class="col-span-3">
+                        <span class="countdown font-mono text-6xl text-white">
+                            <span style="--value:59; --digits: 2;" aria-live="polite" aria-label="59">59</span>
+                        </span>
+                    </div>
+                    <div class="col-span-3">
+                        <span class="countdown font-mono text-6xl text-white">
+                            <span style="--value:59; --digits: 2;" aria-live="polite" aria-label="59">59</span>
+                        </span>
+                    </div>
+                    <div class="col-span-3">
+                        <span class="countdown font-mono text-6xl text-white">
+                            <span style="--value:59; --digits: 2;" aria-live="polite" aria-label="59">59</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="mt-5 bg-black py-5 pb-30 w-full">
+        <div class="grid grid-cols-12">
+            <div class="col-span-10 col-start-2">
+                <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-6">
+                    <div class="col-span-2">
+                        <p class="text-white font-bold text-2xl">harmonysphere</p><br>
+                        <h1 class="text-4xl font-['Playfair_Display'] text-orange-400"> HarmonySphere</h1><br>
+                        <p class="text-yellow-100">Helping people find <br>meaningful connections and lifetlong
+                            partnetrshis.</p>
+                        <!-- <div class="border-2 border-amber-300 w-9 h-5 rounded-xl"><i
+                                class="fa-brands fa-instagram text-white"></i></div>
+                                <div class="border-2 border-amber-300 w-9 h-5 rounded-xl"><i
+                                class="fa-brands fa-instagram text-white"></i></div>          -->
+                    </div>
+                    <div class="col-span-1">
+                        <p class="font-bold text-white">Quick Links</p>
+                        <a class=" text-white" href="#">HOME</a><br>
+                        <a class="text-white" href="#">about us</a>
+                    </div>
+                    <div class="col-span-1">
+                        <P class="text-white">SAFETY & SUPPORT</P>
+                        <a class=" text-white" href="#">HOME</a><br>
+                        <a class="text-white" href="#">about us</a>
+                    </div>
+                    <div class="col-span-1">
+                        <P class="text-white">Legal & privacy</P>
+                        <a class=" text-white" href="#">private policy</a><br>
+                        <a class="text-white" href="#">Term &condition</a>
+                    </div>
+                    <div class="col-span-1">
+                        <P CLASS="text-white">Gets App</P><br>
+                        <img src="./assets/googleplaylist.png">
+                        <br>
+                        <img src="./assets/appstore.png">
+                        <progress class="progress progress-secondary w-56" value="0" max="100"></progress>
+                        <progress class="progress progress-secondary w-56" value="10" max="100"></progress>
+                        <progress class="progress progress-secondary w-56" value="40" max="100"></progress>
+                        <progress class="progress progress-secondary w-56" value="70" max="100"></progress>
+                        <progress class="progress progress-secondary w-56" value="100" max="100"></progress>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 

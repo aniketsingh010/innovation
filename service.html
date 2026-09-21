@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <div class="w-full">
+        <div class="grid grid-cols-12 ">
+            <div class="col-span-12">
+                <div class="navbar bg-base-100 shadow-sm">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                                <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16M4 18h7" />
+                                </svg>
+                                <span><img
+                                        src="https://tse4.mm.bing.net/th/id/OIP.TbxNS8AOgbKmCPhPZZ6r3QHaHa?r=0&pid=Api&P=0&h=180"
+                                        class="h-5 w-5 flex-row" /></span>
+                            </div>
+
+                            <ul tabindex="-1"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="service.html">service</a></li>
+                                <li><a href="contact us.html">contact us</a></li>
+                            </ul>
+
+                            <span class="uppercase font-bold text-2xl text-orange-500 ms=30 italic">Harmony</span>
+                        </div>
+                    </div>
+                    <!-- <div class="navbar-center">
+                        <a class="btn btn-ghost text-xl">SHADI</a>
+                    </div> -->
+                    <div class="navbar-end">
+                        <div class="navbar-end ">
+                            <a class="btn hover:text-red-400" href="login.html">Login</a>
+                            <!-- <button class="btn sm:hidden" popovertarget="my-megamenu-4">Menu</button> -->
+                        </div>
+                        <button class="btn btn-ghost btn-circle">
+                            <svg aria-label="Search" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+                        <button class="btn btn-ghost btn-circle">
+                            <div class="indicator">
+                                <svg aria-label="Notifications" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                </svg>
+                                <span class="badge badge-xs badge-primary indicator-item"></span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar end -->
+    </div>
+    <div class="ms-10 text-4xl text-orange-500 font-semibold uppercase mt-10 flex">our services</div>
+    <div class="text-center italic text-3xl ">Everything need to find a meaningful</div>
+    <div class="bg-amber-50">
+        <div class="grid grid-cols-12 mt-10 ">
+        <div class="col-span-10 col-start-2  py-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-10 gap-10">
+                <!-- first card -->
+                <div class="col-span-3">
+                    <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                        <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                        <div class="card-body">
+                            <p class="text-center">
+                                <i class="fa-solid fa-magnifying-glass text-3xl"></i>
+                            </p>
+                            <h2 class="card-title text-center">Smart Match Search</h2>
+                            <p>Find the right person by exploring profiles that match your preferences and interests.
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card2 -->
+                <div class="col-span-3">
+                    <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                        <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-solid fa-equals text-3xl"></i></p>
+                            <h2 class="card-title text-center">Personalzed Matches</h2>
+                            <p>Discover better matches based on your preferences, interests, and choices.</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card3 -->
+                <div class="col-span-3">
+                    <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                        <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-solid fa-address-card text-3xl"></i></p>
+                            <h2 class="card-title text-center'">Strusted Profiles</h2>
+                            <p>Connect with genuine profiles and enjoy a safe and comfortable matchmaking experience</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card4 -->
+                <div class="col-span-3">
+                    <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                        <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-solid fa-users text-3xl"></i></p>
+                            <h2 class="card-title text-3xl">Profile Creation</h2>
+                            <p>Create your profile with your photo interests, education, and other basic details</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card5 -->
+                <div class="col-span-3">
+                    <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                        <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-solid fa-wifi text-3xl"></i></p>
+                            <h2 class="card-title text-center">Meaningful Connection</h2>
+                            <p>build genuine relationships based on trust,understanding and mutual respect. </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card6 -->
+                <div class="col-span-3">
+                    <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                        <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-regular fa-comment-dots text-3xl"></i></p>
+                            <h2 class="card-title text-3xl">Easy comminication </h2>
+                            <p>Connect with your matches and start a single and comfortable conversation</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">start chat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="mt-10 text-center italic text-4xl uppercase text-red-300">why choose harmony...? </div>
+    <P class="text-2xl text-black font-bold text-center mt-3">A Better way to find your match.....</P>
+    <div CLASS="bg-amber-900">
+        <div class="grid grid-cols-12 mt-10 ">
+            <div class="col-span-10 col-start-2 bg-amber-900 py-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-8 gap-10">
+                    <!-- first card -->
+                    <div class="col-span-2">
+                        <div class="card bg-base-100   shadow-sm shadow-amber-700">
+                            <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                            <div class="card-body">
+                               <p class="text-center"><i class="fa-solid fa-equals text-3xl"></i></p> 
+                                <h2 class="card-title"> Meaningful matches</h2>
+                                <p>Find connections that truly matter to you
+                                </p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card2 -->
+                    <div class="col-span-2">
+                        <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                            <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                            <div class="card-body">
+                             <p class="text-center">  <i class="fa-solid fa-file-shield text-3xl"></i></p>
+                                <h2 class="card-title">Trusted Experience</h2>
+                                <p>Enjoy a comfortrable and trusted matchmaking experience.</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card3 -->
+                    <div class="col-span-2">
+                        <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                            <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                            <div class="card-body ">
+                              <p class="text-center">  <i class="fa-brands fa-cc-discover text-3xl "></i></p>
+                                <h2 class="card-title">Easy Discovery</h2>
+                                <p>Easily explore profiles that match your preferences</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl">learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card4 -->
+                    <div class="col-span-2">
+                        <div class="card bg-base-100  shadow-sm shadow-amber-700">
+                            <!-- <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                                alt="Shoes" />
+                        </figure> -->
+                            <div class="card-body">
+                              <p class="text-center"> <i class="fa-solid fa-message text-3xl"></i></p> 
+                                <h2 class="card-title">     Simple comminication</h2>
+                                <p>Connect with your natches and start a conversation.</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn bg-orange-600 shadow-amber-900 rounded-2xl"> START CHAT </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our promise -->
+    <div class="ms-10 flex-row text-center mt-10">
+        <div class="text-4xl italic text-yellow-300 uppercase">our promise_____ </div>
+        <p class="text-3xl">At Harmony, we aim to make your search </p>
+        <p class="text-2xl">for a meaningful connection simple </p>
+        <p class="text-xl"> comfortable, and memorable.</p>
+        <button class="btn bg-amber-500 ms-200 mt-10 hover:bg-amber-950 shadow-2xl">find your match</button>
+    </div>
+
+    <!-- footer start -->
+    <footer class="mt-5 bg-black py-5 pb-15 w-full">
+        <div class="grid grid-cols-12">
+            <div class="col-span-10 col-start-2">
+                <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-6">
+                    <div class="col-span-2">
+                        <p class="text-white font-bold text-2xl">harmony</p><br>
+                        <h1 class="text-4xl font-['Playfair_Display'] text-orange-400"> Harmony</h1><br>
+                        <p class="text-yellow-100">Helping people find <br>meaningful connections and lifetlong
+                            partnetrshis.</p>
+                        <!-- <div class="border-2 border-amber-300 w-9 h-5 rounded-xl"><i
+                                class="fa-brands fa-instagram text-white"></i></div>
+                                <div class="border-2 border-amber-300 w-9 h-5 rounded-xl"><i
+                                class="fa-brands fa-instagram text-white"></i></div>          -->
+                    </div>
+                    <div class="col-span-1">
+                        <p class="font-bold text-white">Quick Links</p>
+                        <a class=" text-white" href="#">HOME</a><br>
+                        <a class="text-white" href="#">about us</a>
+                    </div>
+                    <div class="col-span-1">
+                        <P class="text-white">SAFETY & SUPPORT</P>
+                        <a class=" text-white" href="#">HOME</a><br>
+                        <a class="text-white" href="#">about us</a>
+                    </div>
+                    <div class="col-span-1">
+                        <P class="text-white">Legal & privacy</P>
+                        <a class=" text-white" href="#">private policy</a><br>
+                        <a class="text-white" href="#">Term &condition</a>
+                    </div>
+                    <div class="col-span-1">
+                        <P CLASS="text-white">Gets App</P><br>
+                        <img src="./assets/googleplaylist.png">
+                        <br>
+                        <img src="./assets/appstore.png">
+                        <progress class="progress progress-secondary w-56" value="0" max="100"></progress>
+                        <progress class="progress progress-secondary w-56" value="10" max="100"></progress>
+                        <progress class="progress progress-secondary w-56" value="40" max="100"></progress>
+                        <progress class="progress progress-secondary w-56" value="70" max="100"></progress>
+                        <progress class="progress progress-secondary w-56" value="100" max="100"></progress>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <div class="text-white flex">@ copyright All right resevered BY:<span
+                        class="text-orange-400 ms-150">Softpro india Computer Technology Pvt ltd</span></div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
